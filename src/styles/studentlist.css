@@ -1,0 +1,40 @@
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+
+.pagination button {
+    padding: 0.5rem 0.8rem;
+    margin: 0 0.3rem;
+    background-color: #84b6f8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #2980b9;
+}
+
+.pagination button:focus {
+    outline: none;
+    background-color: #151c7e;
+}
+#view{
+    background-color: #87ceeb;
+    width: 5rem;
+    margin-right: 5px;
+}
+#edit{
+    background-color: #66b266;
+    width: 5rem;
+    margin-right: 5px;
+}
+#delete{
+    background-color: #DF5656;
+    width: 5rem;
+}

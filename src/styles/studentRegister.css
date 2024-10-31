@@ -1,0 +1,86 @@
+.card {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    color: #101011;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+label {
+    color: #34495e;
+    font-weight: bold;
+}
+
+ input, textarea {
+    width: 100%;
+    height: 5vh;
+}
+menu input, textarea {
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    padding: 0.8rem;
+    background-color: #c54b5f;
+    color: #1f1b1b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #db7dac;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 0.9rem;
+}
+
+table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border: "2px solid black" 
+}
+
+thead {
+    background-color: #a1315c;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 0.8rem;
+    border: 1px solid #bdc3c7;
+    text-align: center;
+}
+
+
+
+tbody tr:hover {
+    background-color: #ecf0f1;
+}

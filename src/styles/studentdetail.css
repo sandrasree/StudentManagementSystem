@@ -1,0 +1,30 @@
+body{
+     background-image: url('https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+.std-container{
+    background-image: url('https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    background-image: url('https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.authen-container{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.authen-container link{
+    color: black;
+}
